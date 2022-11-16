@@ -1,0 +1,29 @@
+header {
+  padding: 25px;
+  font-family: $primary-font;
+  box-shadow: 0 5px 7px 0 rgb(50 50 50 / 50%);
+
+  .navigation {
+    .nav-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+        img {
+          width: 250px;
+        }
+      }
+
+      .menu-header {
+        .nav-top {
+          display: flex;
+          list-style-type: none;
+          .category{
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+  }
+}
