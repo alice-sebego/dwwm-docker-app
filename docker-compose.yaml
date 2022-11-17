@@ -10,7 +10,7 @@ services:
         volumes:
             - ./app:/var/www/html/
         ports:
-            - 8090:80
+            - 8004:80
     db:
         container_name: db
         image: mysql
@@ -25,7 +25,7 @@ services:
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
         ports:
-            - '8089:80'
+            - '8084:80'
         restart: always
         environment:
             PMA_HOST: db
