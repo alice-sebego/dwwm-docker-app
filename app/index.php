@@ -1,5 +1,5 @@
 <?php
-include_once "inc/connexion.php";
+//include_once "inc/connexion.php";
 $title = "Home | Welcome on Storyblocks";
 ?>
 <!DOCTYPE html>
