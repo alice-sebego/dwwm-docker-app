@@ -30,6 +30,21 @@ header .navigation .nav-content .menu-header .nav-top {
 header .navigation .nav-content .menu-header .nav-top .category {
   margin: 0 10px;
 }
+header .navigation .nav-content .search-box input[type=text] {
+  padding: 8px;
+  border-radius: 25px;
+  border: 1px solid #666;
+}
+header .navigation .nav-content .search-box input[type=submit] {
+  position: relative;
+  left: -42px;
+  padding: 9px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: #666;
+  text-transform: uppercase;
+}
 
 .main-content {
   font-family: "Montserrat", sans-serif;

@@ -17,7 +17,7 @@
             <div class="search-box">
                 <form action="" method="get">
                     <input type="text" name="" id="" placeholder="Search our blog ...">
-                    <input type="submit" value="">
+                    <input type="submit" value="go">
                 </form>
             </div>
 
